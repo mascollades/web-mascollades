@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mas Collades — Turismo rural en Balsareny | Masia del 1683</title>
+  <meta name="description" content="Mas Collades, masia catalana del siglo XVII en Balsareny (Bages). Antiguo Granero para grupos, vida de finca, meditación y experiencia enoturística Viatge al passat.">
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__brand">
+        <img src="assets/img/logo.png" alt="Mas Collades">
+        <span>Mas Collades</span>
+      </a>
+      <nav class="navbar__links" id="navLinks">
+        <a href="index.html" class="active" data-i18n="nav.home">Inicio</a>
+        <a href="la-masia.html" data-i18n="nav.masia">La Masía</a>
+        <a href="alojamientos.html" data-i18n="nav.stay">Alojamientos</a>
+        <a href="experiencias.html" data-i18n="nav.exp">Experiencias</a>
+        <a href="galeria.html" data-i18n="nav.gallery">Galería</a>
+        <a href="contacto.html" data-i18n="nav.contact">Contacto</a>
+      </nav>
+      <div class="navbar__actions">
+        <div class="lang-switch" role="group" aria-label="Idioma">
+          <button type="button" data-lang="es">ES</button>
+          <button type="button" data-lang="ca" class="active">CA</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+        <a href="contacto.html" class="btn btn-primary" data-i18n="nav.book">Reservar</a>
+        <button class="navbar__toggle" id="navToggle" aria-label="Menú">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__bg" style="background-image:url('assets/img/atardecer.webp')"></div>
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <span class="hero__badge" data-i18n="hero.badge">🏡 Masia del siglo XVII · Balsareny, Bages</span>
+        <p class="eyebrow" data-i18n="hero.eyebrow">Turismo rural y bienestar</p>
+        <h1 data-i18n="hero.title">Una masia para compartir y reconectar</h1>
+        <p class="lead" data-i18n="hero.lead">En Mas Collades los huéspedes duermen en el Antiguo Granero, con intimidad total para su grupo, y comparten la vida de la finca: el huerto, las gallinas, la leña y el silencio de la montaña del Bages.</p>
+        <div class="hero__ctas">
+          <a href="contacto.html" class="btn btn-naranja" data-i18n="hero.cta1">Reservar estancia</a>
+          <a href="experiencias.html" class="btn btn-ghost" data-i18n="hero.cta2">Descubrir experiencias</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALORES -->
+    <section class="section section--crema">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow" data-i18n="values.eyebrow">La vida en Mas Collades</p>
+          <h2 data-i18n="values.title">La vida de antes, recuperada con calma</h2>
+          <p class="lead" style="margin-inline:auto" data-i18n="values.lead">Aquí no hay recepción ni horarios rígidos. Hay una casa grande de piedra, gente que la comparte y la naturaleza alrededor.</p>
+        </div>
+        <div class="grid grid-4">
+          <div class="feature">
+            <div class="feature__icon">🌿</div>
+            <h3 data-i18n="values.f1t">Huerto y gallinas</h3>
+            <p data-i18n="values.f1d">Baja al huerto a ver si hay algo que recoger y saluda a las gallinas por la mañana.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">🪵</div>
+            <h3 data-i18n="values.f2t">Leña y chimenea</h3>
+            <p data-i18n="values.f2d">Hay leña cortada lista para usar, y también puedes recoger del bosque para el invierno que viene.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">🧘</div>
+            <h3 data-i18n="values.f3t">Meditación y silencio</h3>
+            <p data-i18n="values.f3d">Espacios para parar, respirar y practicar mindfulness en plena naturaleza.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon">🍷</div>
+            <h3 data-i18n="values.f4t">Vino y historia</h3>
+            <p data-i18n="values.f4d">Cada grupo del Antiguo Granero recibe una botella de la DO Pla de Bages y puede vivir el "Viatge al passat".</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LA MASIA RESUMEN -->
+    <section class="section section--blanco">
+      <div class="container split">
+        <div class="split__img">
+          <img src="assets/img/home-masia-historia.webp" alt="Masia con historia" loading="lazy">
+        </div>
+        <div>
+          <p class="eyebrow" data-i18n="home.masia.eyebrow">Desde 1683</p>
+          <h2 data-i18n="home.masia.title">Una masia con más de tres siglos de historia</h2>
+          <p class="lead" data-i18n="home.masia.text">El primer documento del mas Collades data del 24 de marzo de 1683. Desde entonces, la casa ha pasado de manos de los Collades a los Pons, ha vivido el auge del viñedo y la filoxera, y ha sido restaurada en el siglo XX. Hoy abre sus puertas como refugio de turismo rural.</p>
+          <ul class="check-list" style="margin:1.4rem 0 1.8rem">
+            <li data-i18n="home.masia.l1">Masia catalana del siglo XVII en el corazón del Bages</li>
+            <li data-i18n="home.masia.l2">Bodega histórica y barraca de viña de piedra seca</li>
+            <li data-i18n="home.masia.l3">El Antiguo Granero para tu grupo y la finca viva: huerto, jardín y piscina</li>
+          </ul>
+          <a href="la-masia.html" class="btn btn-outline" data-i18n="home.masia.cta">Conocer la historia</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA DESTACADA -->
+    <section class="section section--crema">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="home.exp.eyebrow">Experiencia estrella</p>
+          <h2 data-i18n="home.exp.title">Viatge al passat — Un viaje al pasado a través del vino</h2>
+        </div>
+        <div class="card card--destacado">
+          <div class="card__img">
+            <img src="assets/img/home-vina-bages.webp" alt="Viatge al passat — vinos DO Pla de Bages" loading="lazy">
+          </div>
+          <div class="card__body" style="justify-content:center;gap:1rem;padding:2rem">
+            <span class="tag tag--naranja" data-i18n="home.exp.tag">Enoturismo · DO Pla de Bages</span>
+            <h3 data-i18n="home.exp.cardt">Descubre la historia de la viña en el Bages</h3>
+            <p data-i18n="home.exp.cardd">Visita guiada a la barraca de viña antigua de la masia (piedra seca única en el territorio), recorrido por el celler histórico del siglo XVII en la casa principal y cata de vinos DO Pla de Bages con nuestro sommelier Christian Betoret.</p>
+            <a href="experiencias.html" class="card__link" data-i18n="home.exp.cta">Ver la experiencia completa →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ALOJAMIENTO -->
+    <section class="section section--blanco">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow" data-i18n="home.stay.eyebrow">Alojamiento</p>
+          <h2 data-i18n="home.stay.title">Duerme en el antiguo granero</h2>
+        </div>
+        <div class="grid grid-3">
+          <article class="card">
+            <div class="card__img"><img src="assets/img/home-granero.webp" alt="Antiguo Granero" loading="lazy"></div>
+            <div class="card__body">
+              <h3 data-i18n="home.stay.t1">Antiguo Granero</h3>
+              <p data-i18n="home.stay.d1">Todo el espacio del antiguo granero para tu grupo de 7 personas, con total intimidad. Hay un sofá cama doble adicional por si lo necesitáis.</p>
+              <a href="alojamientos.html" class="card__link" data-i18n="home.stay.cta">Ver alojamiento →</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__img"><img src="assets/img/home-piscina.webp" alt="Zona piscina" loading="lazy"></div>
+            <div class="card__body">
+              <h3 data-i18n="home.stay.t2">Piscina y jardín</h3>
+              <p data-i18n="home.stay.d2">Zona de verano con barbacoa, comedor exterior y piscina entre los campos.</p>
+              <a href="alojamientos.html" class="card__link" data-i18n="home.stay.cta">Ver alojamiento →</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__img"><img src="assets/img/home-gallinas.webp" alt="Gallinas de la finca" loading="lazy"></div>
+            <div class="card__body">
+              <h3 data-i18n="home.stay.t3">Vida en la finca</h3>
+              <p data-i18n="home.stay.d3">Huerto, gallinas, leña y piscina: la experiencia de vivir en el campo, a tu ritmo.</p>
+              <a href="alojamientos.html" class="card__link" data-i18n="home.stay.cta">Ver alojamiento →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CITA -->
+    <section class="section section--morado">
+      <div class="container" style="text-align:center;max-width:800px">
+        <p class="quote" data-i18n="home.quote.text">"Som lo que pensem, som lo que sentim, som lo que vivim."</p>
+        <p class="lead" style="margin:1.5rem auto 0;text-align:center" data-i18n="home.quote.sub">Mas Collades es un proyecto de vida: recuperar la masia pieza a pieza, poco a poco, y no dejar que se pierda la historia de cómo se vivía antes.</p>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-band">
+      <div class="container">
+        <h2 data-i18n="home.cta.title">¿Listo para vivir Mas Collades?</h2>
+        <p class="lead" data-i18n="home.cta.sub">Escríbenos o envíanos un WhatsApp. Te contamos fechas, disponibilidad y qué experiencias encajan mejor con tu estancia.</p>
+        <div class="cta-band__actions">
+          <a href="contacto.html" class="btn btn-naranja" data-i18n="home.cta.b1">Contactar</a>
+          <a href="https://wa.me/34657630406" target="_blank" rel="noopener" class="btn btn-whatsapp">WhatsApp</a>
+          <a href="https://www.instagram.com/mascollades/" target="_blank" rel="noopener" class="btn btn-ghost">Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="assets/img/logo.png" alt="Mas Collades">
+            <span>Mas Collades</span>
+          </div>
+          <p data-i18n="footer.about">Masia catalana del siglo XVII en Balsareny (Bages). Turismo rural con intimidad, vida de finca, meditación y vino de la DO Pla de Bages.</p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/mascollades/" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
+            <a href="https://wa.me/34657630406" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+            <a href="mailto:martha@mascollades.com" aria-label="Email">✉️</a>
+          </div>
+        </div>
+        <div>
+          <h4 data-i18n="footer.nav">Navegación</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+            <li><a href="la-masia.html" data-i18n="nav.masia">La Masía</a></li>
+            <li><a href="alojamientos.html" data-i18n="nav.stay">Alojamientos</a></li>
+            <li><a href="experiencias.html" data-i18n="nav.exp">Experiencias</a></li>
+            <li><a href="galeria.html" data-i18n="nav.gallery">Galería</a></li>
+            <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.contact">Contacto</h4>
+          <ul>
+            <li><a href="mailto:martha@mascollades.com">martha@mascollades.com</a></li>
+            <li><a href="https://wa.me/34657630406" target="_blank" rel="noopener">+34 657 630 406</a></li>
+            <li><a href="https://www.instagram.com/mascollades/" target="_blank" rel="noopener">@mascollades</a></li>
+            <li style="margin-top:.5rem"><span data-i18n="footer.place">Balsareny, Bages (Barcelona)</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year"></span> Mas Collades</span>
+        <span data-i18n="footer.rights">Todos los derechos reservados</span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/34657630406" class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
